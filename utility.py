@@ -26,5 +26,7 @@ def login(username, password):
     
     return driver
 
-def sendReel(reel_path):
-    pass
+def sendReel(reel_path, username = None, password = None, alreadyLoggedIn = False): # We should maybe add a functionality to not login
+    driver
+    if(not alreadyLoggedIn):
+        driver = login()
