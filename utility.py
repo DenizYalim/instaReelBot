@@ -22,7 +22,7 @@ def login(username, password):
     driver.find_element(By.XPATH, '//input[@name="password"]').send_keys(password) # enters password
     time.sleep(1)
     driver.find_element(By.XPATH,"//div[contains(@class, 'html-div')]//button[@type='submit']").click()
-    time.sleep(5)
+    time.sleep(5000)
     
     return driver
 

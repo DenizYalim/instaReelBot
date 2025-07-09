@@ -13,8 +13,8 @@ from utility import login, sendReel
 with open("accounts.json","r") as accounts:
     accounts = json.load(accounts) 
 
-
-login("isim", "sifremmmmm123*")
+test_hesabi = accounts["denizin hesabi"]
+login(test_hesabi["name"], test_hesabi["password"])
 
 
 
