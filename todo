@@ -1,8 +1,15 @@
-+ Selenium should launch firefox/chrome and open instagram to post a selected instagram reel
-+ Videos should be stored in a file inside here.
+- main.py -
+# main.py will use login() and send_reel() functions of utility.py to login and send_reel()
+# main.py will hold account data and select the reel to be posted
+# After a reel is sent, the reel's name should be appended with letter S as in Sent.
+# each account should have a folder named after its name. Folders should contain reels to be sent. Reels should have a number in them to show its order of postage(?)
+# If a reel's name ends with a capital S, it shouldn't be sent.
+# If there isn't a folder for an account. main.py should create it and notify the user.
 
 
+- utility.py -
+# Holds helper selenium functions.
 
-? How will script know which reel to post at a specific day?
-? Should script be able to switch between instagram accounts?
-? How many files should there be in this program?
+
+- model.py -
+# Currently unused.
