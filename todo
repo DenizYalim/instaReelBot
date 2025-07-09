@@ -1,0 +1,8 @@
++ Selenium should launch firefox/chrome and open instagram to post a selected instagram reel
++ Videos should be stored in a file inside here.
+
+
+
+? How will script know which reel to post at a specific day?
+? Should script be able to switch between instagram accounts?
+? How many files should there be in this program?
