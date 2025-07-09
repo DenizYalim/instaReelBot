@@ -1,6 +1,7 @@
 import json
 import selenium
 import os
+from utility import login, sendReel
 
 # main.py will use login() and send_reel() functions of utility.py to login and send_reel()
 # main.py will hold account data and select the reel to be posted
@@ -11,6 +12,9 @@ import os
 
 with open("accounts.json","r") as accounts:
     accounts = json.load(accounts) 
+
+
+login("isim", "sifremmmmm123*")
 
 
 
